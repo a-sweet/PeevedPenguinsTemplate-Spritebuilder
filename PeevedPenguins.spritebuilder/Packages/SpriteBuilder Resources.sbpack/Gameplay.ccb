@@ -267,8 +267,6 @@
 					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -632,32 +630,32 @@
 											<real>38.253921508789062</real>
 										</array>
 										<array>
-											<real>214.54299926757812</real>
-											<real>10.820327758789062</real>
+											<real>213.29302978515625</real>
+											<real>16.500015258789062</real>
 										</array>
 										<array>
-											<real>190.40237426757812</real>
-											<real>2.4843902587890625</real>
+											<real>190.55474853515625</real>
+											<real>9.6367340087890625</real>
 										</array>
 										<array>
-											<real>29.597663879394531</real>
-											<real>1.9179840087890625</real>
+											<real>30.847686767578125</real>
+											<real>10.289077758789062</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>29.597663879394531</real>
-												<real>1.9179840087890625</real>
+												<real>30.847686767578125</real>
+												<real>10.289077758789062</real>
 											</array>
 											<array>
-												<real>190.40237426757812</real>
-												<real>2.4843902587890625</real>
+												<real>190.55474853515625</real>
+												<real>9.6367340087890625</real>
 											</array>
 											<array>
-												<real>214.54299926757812</real>
-												<real>10.820327758789062</real>
+												<real>213.29302978515625</real>
+												<real>16.500015258789062</real>
 											</array>
 											<array>
 												<real>213.19534301757812</real>
@@ -755,6 +753,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
