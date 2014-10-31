@@ -20,7 +20,7 @@
 
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
-    [_mouseJointNode init];
+    _mouseJointNode = [[CCNode alloc] init];
     
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
