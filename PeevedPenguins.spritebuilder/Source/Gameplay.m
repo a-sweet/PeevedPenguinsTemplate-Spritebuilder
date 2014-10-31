@@ -35,7 +35,7 @@
     
     //fix the SIGBART?
     [_physicsNode addChild:_mouseJointNode];
-    [_physicsNode addChild:_mouseJoint];
+    //[_physicsNode addChild:_mouseJoint];
 }
 
 // called on every touch in this scene
