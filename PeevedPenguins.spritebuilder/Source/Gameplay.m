@@ -32,6 +32,10 @@
     // nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
+    
+    //fix the SIGBART?
+    [_physicsNode addChild:_mouseJointNode];
+    [_physicsNode addChild:_mouseJoint];
 }
 
 // called on every touch in this scene
