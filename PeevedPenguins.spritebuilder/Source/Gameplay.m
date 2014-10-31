@@ -20,6 +20,8 @@
 
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
+    [_mouseJointNode init];
+    
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
     
@@ -34,7 +36,7 @@
     _mouseJointNode.physicsBody.collisionMask = @[];
     
     //fix the SIGBART?
-    //[_physicsNode addChild:_mouseJointNode];
+    [_physicsNode addChild:_mouseJointNode];
     //[_physicsNode addChild:_mouseJoint];
 }
 
